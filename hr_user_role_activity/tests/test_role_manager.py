@@ -11,6 +11,7 @@ class TestRoleManager(TransactionCase):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
+        cls.env = cls.env(context=dict(cls.env.context, tracking_disable=True))
         cls.company_a = cls.env["res.company"].create({"name": "Company A"})
         cls.company_b = cls.env["res.company"].create({"name": "Company B"})
 
