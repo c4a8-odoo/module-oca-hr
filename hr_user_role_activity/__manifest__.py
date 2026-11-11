@@ -4,7 +4,7 @@
 {
     "name": "User roles activities - HR",
     "summary": "Assign user role expiration reminders to the employee's manager",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.1001",
     "category": "Human Resources",
     "author": "glueckkanja AG, Odoo Community Association (OCA)",
     "license": "LGPL-3",
